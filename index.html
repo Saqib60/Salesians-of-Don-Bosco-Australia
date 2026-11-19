@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salesians of Don Bosco | Australia–Pacific</title>
+<meta name="description" content="Salesians of Don Bosco, Australia–Pacific Province. We walk with young people in faith and life.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===== Icon sprite ===== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7M8 11h7"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.5a5 5 0 0 1 5.5 5.5"/></symbol>
+  <symbol id="i-news" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></symbol>
+  <symbol id="i-hub" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.3 11l7.4-3.8M8.3 13l7.4 3.8"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M8 5v14M16 5v14" stroke-width="3"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/></symbol>
+  <symbol id="i-cam" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></symbol>
+  <symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></symbol>
+  <symbol id="wave" viewBox="336 255 288 95"><path fill="currentColor" stroke="none" d="M505.8 274.3C439 292.5 400.2 227.3 336.6 286c11.8-3.5 22.3-5.6 31.8-6.6 20.2 40.1 61.8 67.7 109.8 67.7 49.5 0 92.1-29.3 111.5-71.4 9.8-.1 20.9 1.1 33.5 4.1-112.9-56.1-119.6 57.6-226.8 21.1 109 55.6 116.6-19 186-24.8-19 38.2-58.5 64.5-104.2 64.5-44.6 0-83.3-25-102.8-61.8 62.9-3.6 77.7 39.8 130.4-4.5"/></symbol>
+</svg>
+
+<a class="skip" href="#main" style="position:absolute;left:-9999px">Skip to content</a>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="#home" aria-label="Salesians of Don Bosco — home"><img src="assets/logo.svg" alt="Salesians of Don Bosco Australia Pacific Province"></a>
+    <nav class="main-nav" aria-label="Main">
+      <a href="#child-safety" data-section="about">About Us</a>
+      <a href="#" data-section="youth" data-soon="Youth and Vocations is designed in the next phase.">Youth and Vocations</a>
+      <a href="#ministry" data-section="works">Our Works and Ministries</a>
+      <a href="#resources" data-section="resources">Resources and Bulletin</a>
+      <a href="#article" data-section="news">News</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" data-open-search aria-label="Search"><svg class="i"><use href="#i-search"/></svg></button>
+      <a class="btn btn--support" href="#giving">Support Us <svg class="i"><use href="#i-arrow"/></svg></a>
+      <button class="icon-btn menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg class="i"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+</header>
+
+<!-- Drawer -->
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__scrim" data-close-drawer></div>
+  <nav class="drawer__panel" aria-label="Mobile">
+    <button class="drawer__close" data-close-drawer aria-label="Close menu"><svg class="i i--lg"><use href="#i-close"/></svg></button>
+    <a class="nav-link" href="#home">Home</a>
+    <a class="nav-link" href="#child-safety" data-section="about">About Us</a>
+    <a class="nav-link" href="#" data-soon="Youth and Vocations is designed in the next phase.">Youth and Vocations</a>
+    <a class="nav-link" href="#ministry" data-section="works">Our Works and Ministries</a>
+    <a class="nav-link" href="#resources" data-section="resources">Resources and Bulletin</a>
+    <a class="nav-link" href="#article" data-section="news">News</a>
+    <a class="btn btn--support" href="#giving" style="margin-top:24px">Support Us <svg class="i"><use href="#i-arrow"/></svg></a>
+  </nav>
+</div>
+
+<!-- Search -->
+<div class="search" id="search" role="dialog" aria-label="Search the site">
+  <button class="drawer__close" data-close-search aria-label="Close search"><svg class="i i--lg"><use href="#i-close"/></svg></button>
+  <form>
+    <label for="site-q" class="eyebrow" style="color:var(--salmon)">Search the site</label>
+    <input id="site-q" type="search" placeholder="Try “podcast”, “camp” or “bulletin”">
+    <p>Press Enter to search the Resource &amp; Bulletin library.</p>
+  </form>
+</div>
+
+<main id="main">
+
+<!-- =====================================================
+     01 HOMEPAGE
+     ===================================================== -->
+<section class="view" id="home" data-title="Home" data-section="">
+
+  <div class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy reveal">
+        <p class="eyebrow">Salesians of Don Bosco · Australia–Pacific</p>
+        <h1 class="h-display">We walk with young people in faith and life.</h1>
+        <p class="lead">Inspired by Don Bosco, we build places of welcome, faith, learning and joy for young people, especially those who are poor or on the margins, across Australia, Samoa, Fiji and New Zealand.</p>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#ministry">Explore our work <svg class="i"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--secondary" href="#article">Meet Don Bosco <svg class="i"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="media">
+          <img src="assets/hero.jpg" alt="Young people laughing together during a team game on a school oval at sunset">
+          <button class="play-chip" data-video="Our story — a day at the oratory"><span class="dot"><svg class="i i--sm"><use href="#i-play"/></svg></span>Watch our story · 1:30</button>
+        </div>
+        <p class="caption"><svg class="i"><use href="#i-cam"/></svg>Photo: [Photographer] · [Ministry / event] · © Salesians of Don Bosco [wording TBC]</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="scope">
+    <div class="container scope__inner">
+      <div class="scope__lead">
+        <span class="badge badge--glass"><svg class="i"><use href="#i-globe"/></svg></span>
+        <div><p class="eyebrow">One province, many places</p><p class="h3">Rooted locally. Connected across Asia-Pacific.</p></div>
+      </div>
+      <div class="chips"><span class="chip">Australia</span><span class="chip">New Zealand</span><span class="chip">Samoa</span><span class="chip">Fiji</span></div>
+    </div>
+  </div>
+
+  <!-- Optional event spotlight -->
+  <div class="section section--flush-bottom">
+    <div class="container">
+      <article class="event on-dark reveal" aria-label="Upcoming event">
+        <div class="event__body">
+          <div class="event__top"><span class="pill pill--red"><span class="pulse"></span>Upcoming event</span><span class="pill pill--ghost" data-days-to-go>— days to go</span></div>
+          <div class="event__title">
+            <div class="datebox"><p class="eyebrow">Sun</p><div class="d">06</div><small>DEC 2026</small></div>
+            <div><h2 class="h2">Salesian Family Day 2026</h2><p style="margin:10px 0 0">A day of food, games, music and Mass for the whole Salesian family: students, parents, past pupils and friends.</p></div>
+          </div>
+          <div class="countdown" data-cd><div><b data-d>00</b><span>Days</span></div><div><b data-h>00</b><span>Hours</span></div><div><b data-m>00</b><span>Mins</span></div><div><b data-s>00</b><span>Secs</span></div></div>
+          <div class="meta"><span><svg class="i i--sm"><use href="#i-pin"/></svg>Salesian College, Chadstone VIC</span><span><svg class="i i--sm"><use href="#i-cal"/></svg>10am – 3pm</span><span><svg class="i i--sm"><use href="#i-users"/></svg>All welcome · Free entry</span></div>
+          <div class="btn-row"><a class="btn btn--light" href="#" data-toast="Registration form opens here (prototype)">Register now <svg class="i"><use href="#i-arrow"/></svg></a><a class="btn btn--outline-light" href="#" data-toast="Calendar invite (.ics) downloads here (prototype)">Add to calendar <svg class="i"><use href="#i-cal"/></svg></a></div>
+        </div>
+        <div class="event__media"><img src="assets/family.jpg" alt="Families sharing food at picnic tables under marquees at a community day"></div>
+      </article>
+    </div>
+  </div>
+
+  <!-- Explore -->
+  <div class="section">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Explore</p><h2 class="h2">Explore the Salesian mission</h2></div></div>
+      <div class="grid grid--4">
+        <a class="tile tile--red reveal" href="#" data-soon="Salesian Missions overview uses the Ministry template.">
+          <svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-globe"/></svg>
+          <span class="badge badge--white"><svg class="i i--lg"><use href="#i-globe"/></svg></span>
+          <h3>Salesian Missions</h3><p>Practical mission work with young people across Asia and the Pacific.</p>
+          <span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span>
+        </a>
+        <a class="tile tile--ocean reveal" href="#ministry">
+          <svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-users"/></svg>
+          <span class="badge badge--white"><svg class="i i--lg"><use href="#i-users"/></svg></span>
+          <h3>Cagliero Youth Ministry</h3><p>Formation, accompaniment and belonging for young people.</p>
+          <span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span>
+        </a>
+        <a class="tile tile--navy reveal" href="#article">
+          <svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-news"/></svg>
+          <span class="badge badge--white"><svg class="i i--lg"><use href="#i-news"/></svg></span>
+          <h3>Bosco.link News</h3><p>Stay connected to Salesian life across East Asia–Oceania.</p>
+          <span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span>
+        </a>
+        <a class="tile tile--charcoal reveal" href="#resources">
+          <svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-hub"/></svg>
+          <span class="badge badge--white"><svg class="i i--lg"><use href="#i-hub"/></svg></span>
+          <h3>Collaborative Hub</h3><p>Shared tools, formation and resources for our communities.</p>
+          <span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start where you are -->
+  <div class="section section--navy on-dark">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Find your way in</p><h2 class="h2">Start where you are</h2></div></div>
+      <div class="grid grid--3">
+        <a class="card reveal" href="#resources"><span class="badge badge--tint"><svg class="i i--lg"><use href="#i-book"/></svg></span><h3 class="h4" style="font-family:var(--font-display);font-size:24px">Teachers &amp; educators</h3><p>Bring Salesian education and the Preventive System into your setting.</p><span class="card-footer">Toolkit · Resources <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="card reveal" href="#ministry"><span class="badge badge--tint"><svg class="i i--lg"><use href="#i-users"/></svg></span><h3 class="h4" style="font-family:var(--font-display);font-size:24px">Young people</h3><p>Find community, formation, service and a place to belong.</p><span class="card-footer">SYM · OzBosco · Green Alliance <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="card reveal" href="#" data-soon="Vocations landing page is in the next wireframe round."><span class="badge badge--tint"><svg class="i i--lg"><use href="#i-heart"/></svg></span><h3 class="h4" style="font-family:var(--font-display);font-size:24px">Vocations &amp; volunteering</h3><p>Explore a life of service, community and mission with the young.</p><span class="card-footer">Discernment · Service <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stories -->
+  <div class="section">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">From the Salesian family</p><h2 class="h2">Stories that keep the mission moving</h2></div><a class="btn btn--secondary" href="#article">Read all stories <svg class="i"><use href="#i-arrow"/></svg></a></div>
+      <div class="grid grid--3">
+        <a class="story reveal" href="#article"><div class="media"><img src="assets/trees.jpg" alt="Volunteers planting a native tree"><span class="tag tag--charcoal">Spirituality</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">12 Nov 2026</span><h3>The Preventive System: a home, a school, a parish, a playground</h3><p>Don Bosco’s approach brings reason, faith and loving-kindness into everyday life.</p></a>
+        <a class="story reveal" href="#article"><div class="media"><img src="assets/samoa.jpg" alt="Students studying in a bright classroom in Samoa"><span class="tag tag--red">Don Bosco</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">3 Nov 2026</span><h3>From the oratory to a worldwide family</h3><p>The work that began in Turin continues through schools, parishes and missions.</p></a>
+        <a class="story reveal" href="#article"><div class="media"><img src="assets/camp.jpg" alt="Young people around a campfire at a youth camp"><span class="tag">Region</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">28 Oct 2026</span><h3>A province connected across the Pacific</h3><p>Australia, Samoa, Fiji and New Zealand belong to a wider Salesian movement.</p></a>
+      </div>
+
+      <div class="bulletin on-dark reveal">
+        <svg class="wave" style="color:#fff"><use href="#wave"/></svg>
+        <div class="covers" aria-hidden="true">
+          <div class="cover cover--back"></div>
+          <div class="cover cover--front"><div class="cover__mast"><small>THE SALESIAN</small><b>Bulletin</b></div><img src="assets/camp.jpg" alt=""><div class="cover__foot">SPRING 2026 · ISSUE 3</div></div>
+        </div>
+        <div style="position:relative">
+          <p class="eyebrow"><svg class="i i--sm" style="vertical-align:-3px;margin-right:6px"><use href="#i-book"/></svg>Digital Bulletin</p>
+          <h2 class="h2">The new Salesian Bulletin is here</h2>
+          <p class="lead" style="margin:16px 0 24px">Stories of faith, friendship and service from Salesian communities across Australia and the Pacific. Read the Spring issue online, or explore every past edition in the library.</p>
+          <div class="btn-row"><a class="btn btn--light" href="#resources">Read the current issue <svg class="i"><use href="#i-arrow"/></svg></a><a class="btn btn--outline-light" href="#resources">Browse the bulletin library <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Giving -->
+  <div class="section section--navy on-dark give">
+    <div class="container reveal">
+      <p class="eyebrow" style="margin:0">Support the mission</p>
+      <h2 class="h2">Give young people room to grow</h2>
+      <p class="lead">Your support makes belonging, formation and practical care possible, through a gift today or a lasting bequest.</p>
+      <div class="btn-row" style="justify-content:center"><a class="btn btn--support" href="#giving">Give now <svg class="i"><use href="#i-arrow"/></svg></a><a class="btn btn--outline-light" href="#giving">Leave a bequest <svg class="i"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+
+  <!-- Child safety -->
+  <div class="section">
+    <div class="container">
+      <div class="safe on-dark reveal">
+        <span class="badge badge--glass" style="color:var(--salmon)"><svg class="i i--lg"><use href="#i-shield"/></svg></span>
+        <div>
+          <p class="eyebrow">A child-safe province</p>
+          <h2 class="h2">Young people are safe, heard and welcomed here.</h2>
+          <p style="margin:16px 0 24px">The Salesians are committed to child-safe and child-friendly environments, with zero tolerance for abuse and a focus on children’s best interests.</p>
+          <div class="btn-row"><a class="btn btn--light" href="#child-safety">Read the commitment <svg class="i"><use href="#i-arrow"/></svg></a><a class="btn btn--outline-light" href="#" data-toast="Policy PDF downloads here (prototype)">Download policy <svg class="i"><use href="#i-dl"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     02 CHILD SAFETY
+     ===================================================== -->
+<section class="view" id="child-safety" data-title="Child Safety" data-section="about">
+  <div class="page-intro page-intro--center">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><svg class="i"><use href="#i-chev"/></svg><span>Child Safety</span></nav>
+      <p class="eyebrow">Our commitment</p>
+      <h1 class="h1">Child safety is a shared responsibility.</h1>
+      <p class="lead">Every child and young person in our care has the right to be safe, heard and respected. Here you can understand our commitment, find the policy, and know exactly what to do if you are worried.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container stack">
+      <div class="report reveal">
+        <div class="report__head">
+          <div><span class="badge badge--navy"><svg class="i"><use href="#i-shield"/></svg></span><div><p class="eyebrow" style="margin:0 0 4px">Need to report or ask for help?</p><h2 class="h3">Need help or want to report a concern?</h2></div></div>
+          <a class="btn btn--primary" href="#" data-toast="Safeguarding contact form opens here (prototype)">Get support <svg class="i"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="grid grid--3">
+          <div class="step step--urgent"><span class="step__num">1</span><h3 class="h4">Immediate danger?</h3><p>If a child is in immediate danger, call <strong>000</strong> (Police, Fire, Ambulance) straight away.</p></div>
+          <div class="step"><span class="step__num">2</span><h3 class="h4">Report a concern to us</h3><p>Contact our Safeguarding Office in confidence. [Phone / email to confirm]</p></div>
+          <div class="step"><span class="step__num">3</span><h3 class="h4">Talk to someone independent</h3><p>Kids Helpline <strong>1800 55 1800</strong>: free, confidential, 24/7 for young people.</p></div>
+        </div>
+      </div>
+
+      <div class="band band--navy on-dark reveal">
+        <div><p class="eyebrow">Safety policy + resources</p><h2 class="h2">Read the Salesians’ child safety policy</h2><p>The policy, code of conduct, training and responsibilities for everyone in our communities: staff, volunteers, families and young people.</p></div>
+        <div class="btn-row" style="flex-direction:column;align-items:stretch;flex:none"><a class="btn btn--light" href="#" data-toast="Policy page opens here (prototype)">View policy <svg class="i"><use href="#i-arrow"/></svg></a><a class="btn btn--outline-light" href="#" data-toast="Policy PDF downloads here (prototype)">Download PDF <svg class="i"><use href="#i-dl"/></svg></a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section--tight-top">
+    <div class="container stack">
+      <h2 class="h2 reveal">Find information and support</h2>
+      <div class="grid grid--3">
+        <a class="tile tile--navy reveal" href="#" data-soon="Safeguarding explainer page (next phase)" style="min-height:300px"><svg class="tile__wave"><use href="#wave"/></svg><span class="badge badge--white"><svg class="i i--lg"><use href="#i-book"/></svg></span><p class="eyebrow" style="color:var(--salmon);margin:8px 0 0">Understand</p><h3>What safeguarding means and how we create safer communities.</h3><span class="card-footer">Learn more <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="tile tile--ocean reveal" href="#" data-soon="Support services page (next phase)" style="min-height:300px"><svg class="tile__wave"><use href="#wave"/></svg><span class="badge badge--white"><svg class="i i--lg"><use href="#i-heart"/></svg></span><p class="eyebrow" style="color:var(--white);margin:8px 0 0">Get help</p><h3>Support for children, adults at risk and survivors.</h3><span class="card-footer">Learn more <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="tile tile--charcoal reveal" href="#" data-soon="Training & action page (next phase)" style="min-height:300px"><svg class="tile__wave"><use href="#wave"/></svg><span class="badge badge--white"><svg class="i i--lg"><use href="#i-spark"/></svg></span><p class="eyebrow" style="color:var(--salmon);margin:8px 0 0">Take action</p><h3>Training, policies and ways to raise a concern.</h3><span class="card-footer">Learn more <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+      </div>
+      <div class="link-chips reveal"><span class="eyebrow" style="margin:0 8px 0 0;color:var(--muted)">Related information</span><a class="link-chip" href="#" data-soon>Policies <svg class="i i--sm"><use href="#i-arrow"/></svg></a><a class="link-chip" href="#" data-soon>Code of conduct <svg class="i i--sm"><use href="#i-arrow"/></svg></a><a class="link-chip" href="#" data-soon>Annual reporting <svg class="i i--sm"><use href="#i-arrow"/></svg></a><a class="link-chip" href="#" data-soon>Safeguarding contacts <svg class="i i--sm"><use href="#i-arrow"/></svg></a></div>
+      <div class="reveal"><div class="video"><img src="assets/family.jpg" alt="A community gathering"><button class="play-chip" data-video="How we keep young people safe"><span class="dot"><svg class="i i--sm"><use href="#i-play"/></svg></span>Watch: how we keep young people safe · 2:10</button></div><p class="caption"><svg class="i"><use href="#i-cam"/></svg>Photo: [credit TBC]</p></div>
+      <div class="explore-list reveal"><p class="eyebrow">Keep exploring trust and support</p><a href="#giving"><span class="h4">Understand giving and bequest support</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></a><a href="#ministry"><span class="h4">See the ministries working with young people</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     03 GIVING & BEQUESTS
+     ===================================================== -->
+<section class="view" id="giving" data-title="Giving & Bequests" data-section="">
+  <div class="page-intro">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><svg class="i"><use href="#i-chev"/></svg><span>Giving &amp; Bequests</span></nav>
+      <p class="eyebrow">Giving + bequests</p>
+      <h1 class="h1">Help young people find a place to belong</h1>
+      <p class="lead">Your support helps create safe spaces, practical opportunities and a future of hope for young people across the Salesian mission.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container stack">
+      <div class="reveal"><div class="media" style="aspect-ratio:12/4.4"><img src="assets/samoa.jpg" alt="Students in a new learning centre"></div><p class="caption"><svg class="i"><use href="#i-cam"/></svg>Photo: [credit TBC]</p></div>
+      <div class="band band--navy on-dark reveal"><div><p class="eyebrow">Make a gift</p><h2 class="h2">Give young people room to grow</h2><p>Choose a one-off gift, regular giving, community fundraising or a lasting bequest.</p></div><a class="btn btn--support" href="#" data-toast="Secure donation form opens here (prototype)">Give now <svg class="i"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+  <div class="section section--tight-top ways">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Ways to give</p><h2 class="h2">Choose how you’d like to help</h2></div></div>
+      <div class="grid grid--3">
+        <a class="card reveal" href="#" data-toast="Online giving form (prototype)"><div class="media"><img src="assets/trees.jpg" alt=""></div><div><p class="eyebrow" style="margin:0">Online</p><h3 class="h3" style="font-size:24px">One-off or regular giving</h3><p>A quick, secure way to support current Salesian works.</p></div><span class="card-footer">Give online <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="card reveal" href="#" data-toast="Community fundraising guide (prototype)"><div class="media"><img src="assets/court.jpg" alt=""></div><div><p class="eyebrow" style="margin:0">Community</p><h3 class="h3" style="font-size:24px">Fundraise or give together</h3><p>See how your school, parish or group can support young people.</p></div><span class="card-footer">Explore options <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="card reveal" href="#" data-toast="Bequest enquiry form (prototype)"><div class="media"><img src="assets/camp.jpg" alt=""></div><div><p class="eyebrow" style="margin:0">Bequests</p><h3 class="h3" style="font-size:24px">Leave a lasting legacy</h3><p>Start a personal, confidential conversation about a gift in your will.</p></div><span class="card-footer">Learn about bequests <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+      </div>
+    </div>
+  </div>
+  <div class="section section--tight-top">
+    <div class="container">
+      <div class="impact on-dark reveal">
+        <div><p class="eyebrow">Where your gift goes</p><h2 class="h2">See what your gift makes possible</h2><p style="margin-top:12px">Support helps fund safe communities, formation, practical care and opportunities for young people to grow.</p>
+          <ul><li><span><svg class="i i--sm"><use href="#i-spark"/></svg></span>Safe places to learn, play and belong</li><li><span><svg class="i i--sm"><use href="#i-spark"/></svg></span>Formation and leadership for young people</li><li><span><svg class="i i--sm"><use href="#i-spark"/></svg></span>Practical care for those doing it tough</li></ul>
+          <a class="btn btn--link" href="#article">Read an impact story <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        <div class="media"><img src="assets/camp.jpg" alt="Young people at a camp"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section section--tight-top">
+    <div class="container stack">
+      <div class="reveal"><p class="eyebrow">FAQ + support</p><h2 class="h2">Questions about giving?</h2></div>
+      <div class="faq reveal">
+        <details open><summary><span class="h4">Will I receive a tax receipt?</span><span class="toggle"><svg class="i i--sm"><use href="#i-down"/></svg></span></summary><div class="answer">Yes, a receipt is emailed for every eligible gift. [Tax-deductibility wording to confirm with the Province]</div></details>
+        <details><summary><span class="h4">What payment options are available?</span><span class="toggle"><svg class="i i--sm"><use href="#i-down"/></svg></span></summary><div class="answer">Credit and debit card, PayPal and direct bank transfer. [Options to confirm]</div></details>
+        <details><summary><span class="h4">Can I set up regular giving?</span><span class="toggle"><svg class="i i--sm"><use href="#i-down"/></svg></span></summary><div class="answer">Yes. Choose monthly giving on the donation form; you can change or stop it at any time. [To confirm]</div></details>
+        <details><summary><span class="h4">How do I start a conversation about a bequest?</span><span class="toggle"><svg class="i i--sm"><use href="#i-down"/></svg></span></summary><div class="answer">Contact our giving office for a confidential, no-obligation conversation. [Contact details TBC]</div></details>
+      </div>
+      <p class="reveal" style="display:flex;gap:24px;flex-wrap:wrap;align-items:center;margin:0"><strong class="h4">Still have a question?</strong><span class="muted" style="display:inline-flex;gap:8px;align-items:center"><svg class="i i--sm" style="color:var(--ocean)"><use href="#i-phone"/></svg>[Giving office phone — TBC]</span><span class="muted" style="display:inline-flex;gap:8px;align-items:center"><svg class="i i--sm" style="color:var(--ocean)"><use href="#i-mail"/></svg>[Giving email — TBC]</span></p>
+      <div class="explore-list reveal"><p class="eyebrow">Explore the wider mission</p><a href="#ministry"><span class="h4">See the ministries and works a gift can support</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></a><a href="#child-safety"><span class="h4">Read the child safety commitment</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     04 RESOURCE & BULLETIN LIBRARY
+     ===================================================== -->
+<section class="view" id="resources" data-title="Resource & Bulletin Library" data-section="resources">
+  <div class="page-intro">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><svg class="i"><use href="#i-chev"/></svg><span>Resources and Bulletin</span></nav>
+      <p class="eyebrow">Resource + bulletin library</p>
+      <h1 class="h1">The Salesian Podcast: find the right resource for where you are</h1>
+      <p class="lead">Discover episodes, bulletins, prayer and formation resources, see who each one is for, and move straight into related ministry and story content.</p>
+      <form class="finder" id="res-form" role="search">
+        <div class="finder__row">
+          <div class="field"><label for="res-q">Search</label><input id="res-q" type="search" placeholder="Search resources…"></div>
+          <div class="field"><label for="res-topic">Topic</label><select id="res-topic"><option>All topics</option><option>Faith</option><option>Community</option><option>Leadership</option></select></div>
+          <div class="field"><label for="res-aud">Audience</label><select id="res-aud"><option>All audiences</option><option>Young people</option><option>Educators</option><option>Families</option></select></div>
+          <button class="btn btn--primary" type="submit">Search <svg class="i"><use href="#i-search"/></svg></button>
+        </div>
+        <div class="filter-chips"><span class="label">TYPE</span>
+          <button type="button" class="fchip is-active" data-type="All">All</button><button type="button" class="fchip" data-type="Podcast">Podcast</button><button type="button" class="fchip" data-type="Bulletin">Bulletin</button><button type="button" class="fchip" data-type="Formation">Formation</button><button type="button" class="fchip" data-type="Prayer">Prayer</button><button type="button" class="fchip" data-type="Guide">Program guides</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="section section--join-next">
+    <div class="container">
+      <div class="player on-dark reveal">
+        <div class="player__art"><img src="assets/camp.jpg" alt=""><p class="eyebrow" style="margin:0">The Salesian</p><b>Podcast</b></div>
+        <div>
+          <p class="eyebrow">Featured episode · Ep 12 <span class="bars" aria-hidden="true"><i></i><i></i><i></i></span></p>
+          <h2 class="h3">Walking with young people: the Preventive System today</h2>
+          <p style="margin:12px 0">Reason, faith and loving-kindness: what Don Bosco’s approach looks like in a classroom, a camp and a youth centre in 2026.</p>
+          <div class="player__controls"><button class="play-btn" aria-label="Play episode"><svg class="i i--lg"><use href="#i-play"/></svg></button><div class="track"><div class="track__bar" role="slider" aria-label="Seek" tabindex="0"><div class="track__fill"></div></div><div class="track__time"><span data-cur>12:40</span><span>38:05</span></div></div></div>
+          <div class="btn-row" style="margin-top:12px"><a class="btn btn--link" href="#" data-toast="Episode transcript (prototype)">Read transcript <svg class="i"><use href="#i-arrow"/></svg></a><a class="btn btn--link" href="#" data-toast="All episodes list (prototype)">All episodes <svg class="i"><use href="#i-arrow"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section--tight-top" id="res-results">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Resource results</p><h2 class="h2">Podcast episodes &amp; resources</h2></div><span class="muted" id="res-count">6 items · Newest first</span></div>
+      <div class="grid grid--3">
+        <a class="card res-card" href="#" data-toast="Opens on the youth ministry site (external)" data-type="Podcast" data-topic="Faith" data-aud="Young people Educators"><div class="media"><img src="assets/camp.jpg" alt=""><span class="duration"><svg class="i i--sm"><use href="#i-play"/></svg>38 min</span></div><div class="res-meta">Podcast <span>· 18 Aug 2026</span></div><h3 class="h4">Ep 12 · The Preventive System today</h3><span class="open">Open resource <svg class="i i--sm"><use href="#i-ext"/></svg></span></a>
+        <a class="card res-card" href="#" data-toast="Opens on the youth ministry site (external)" data-type="Bulletin" data-topic="Community" data-aud="Families Educators Young people"><div class="media"><img src="assets/samoa.jpg" alt=""></div><div class="res-meta">Bulletin <span>· 03 Aug 2026</span></div><h3 class="h4">Salesian Bulletin: Spring 2026</h3><p class="muted" style="margin:0;font-size:15px">PDF · 24 pages</p><span class="open">Open resource <svg class="i i--sm"><use href="#i-ext"/></svg></span></a>
+        <a class="card res-card" href="#" data-toast="Opens on the youth ministry site (external)" data-type="Formation" data-topic="Community" data-aud="Young people Educators"><div class="media"><img src="assets/trees.jpg" alt=""></div><div class="res-meta">Formation <span>· 21 Jul 2026</span></div><h3 class="h4">Laudato Si’ in a youth group</h3><p class="muted" style="margin:0;font-size:15px">Session plan</p><span class="open">Open resource <svg class="i i--sm"><use href="#i-ext"/></svg></span></a>
+        <a class="card res-card" href="#" data-toast="Opens on the youth ministry site (external)" data-type="Podcast" data-topic="Community" data-aud="Young people"><div class="media"><img src="assets/court.jpg" alt=""><span class="duration"><svg class="i i--sm"><use href="#i-play"/></svg>32 min</span></div><div class="res-meta">Podcast <span>· 07 Jul 2026</span></div><h3 class="h4">Ep 11 · Sport, play and belonging</h3><span class="open">Open resource <svg class="i i--sm"><use href="#i-ext"/></svg></span></a>
+        <a class="card res-card" href="#" data-toast="Opens on the youth ministry site (external)" data-type="Prayer" data-topic="Faith" data-aud="Families"><div class="media"><img src="assets/family.jpg" alt=""></div><div class="res-meta">Prayer <span>· 23 Jun 2026</span></div><h3 class="h4">Goodnight talks for families</h3><p class="muted" style="margin:0;font-size:15px">Reflection pack</p><span class="open">Open resource <svg class="i i--sm"><use href="#i-ext"/></svg></span></a>
+        <a class="card res-card" href="#" data-toast="Opens on the youth ministry site (external)" data-type="Guide" data-topic="Leadership" data-aud="Educators Young people"><div class="media"><img src="assets/hero.jpg" alt=""></div><div class="res-meta">Program guide <span>· 10 Jun 2026</span></div><h3 class="h4">Running a Salesian youth group</h3><p class="muted" style="margin:0;font-size:15px">Guide · 18 pages</p><span class="open">Open resource <svg class="i i--sm"><use href="#i-ext"/></svg></span></a>
+      </div>
+      <p class="empty">No resources match those filters. Try clearing the search or choosing “All”.</p>
+      <div class="pager"><button class="is-active">1</button><button>2</button><button>3</button><a class="btn btn--secondary" href="#" data-toast="More resources load here (prototype)" style="margin-left:8px">Load more <svg class="i"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+  <div class="section section--tight-top">
+    <div class="container stack">
+      <div class="band band--ocean on-dark reveal"><div><p class="eyebrow">Need a hand?</p><h2 class="h2">Can’t find what you need?</h2><p>Tell us what you’re looking for and our youth ministry team will point you in the right direction.</p></div><a class="btn btn--light" href="#" data-toast="Contact form opens here (prototype)">Contact us <svg class="i"><use href="#i-arrow"/></svg></a></div>
+      <div class="explore-list reveal"><p class="eyebrow">Keep exploring related content</p><a href="#ministry"><span class="h4">Explore Cagliero Youth Ministry and Salesian Missions</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></a><a href="#article"><span class="h4">Read the latest Salesian story</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     05 NEWS ARTICLE
+     ===================================================== -->
+<section class="view" id="article" data-title="Don Bosco’s story" data-section="news">
+  <div class="page-intro page-intro--center">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><svg class="i"><use href="#i-chev"/></svg><a href="#article">News</a><svg class="i"><use href="#i-chev"/></svg><span>Formation</span></nav>
+      <p class="eyebrow">News + formation · 18 Aug 2026</p>
+      <h1 class="h1">Don Bosco’s story is not only about one priest in nineteenth-century Turin.</h1>
+      <p class="lead">How a real story connects history, people and the continuing Salesian mission in Australia and across the Pacific.</p>
+      <div class="byline"><span></span>By Bosco.link News · 5 min read</div>
+    </div>
+  </div>
+  <div class="container article-hero">
+    <div class="media reveal"><img src="assets/samoa.jpg" alt="Students learning together in a Salesian school"></div>
+    <p class="caption"><svg class="i"><use href="#i-cam"/></svg>Photo: [Photographer name] · [Ministry / event] · © Salesians of Don Bosco Australia–Pacific [credit &amp; attribution wording TBC, pending image policy]</p>
+  </div>
+  <div class="section section--join-prev">
+    <div class="container">
+      <article class="prose">
+        <p>Don Bosco’s story is not only about one priest in nineteenth-century Turin. It is about a way of being with young people: close enough to listen, practical enough to help, and hopeful enough to see what they can become. That spirit continues to shape the Salesian family in Australia and across the Pacific.</p>
+        <h2>A place to belong</h2>
+        <p>John Bosco was born in 1815 in the hills of Piedmont. As a young priest in Turin he met boys who had come to the city looking for work and found themselves alone, unemployed or in prison. He began gathering them on Sundays for games, lessons and prayer: the beginning of the oratory.</p>
+        <blockquote>“It is not enough to love the young; they must know that they are loved.”<cite>St John Bosco, 1884</cite></blockquote>
+        <h2>Reason, faith and loving-kindness</h2>
+        <p>Don Bosco called his approach the Preventive System. Rather than punishment, it relies on presence: adults who walk alongside young people, earn their trust and help them grow. In 1859 he founded the Salesian Society so the work could continue beyond his own lifetime.</p>
+        <figure><div class="media"><img src="assets/trees.jpg" alt="Volunteers and young people planting trees together"></div><figcaption class="caption"><svg class="i"><use href="#i-cam"/></svg>Photo: [credit TBC]</figcaption></figure>
+        <h2>The same spirit, here and now</h2>
+        <p>Today that spirit lives on in Salesian schools, parishes, youth centres and missions across Australia, Samoa, Fiji and New Zealand, wherever adults choose to be a home, a school, a playground and a parish for young people.</p>
+        <div class="article-foot"><div class="tags" style="margin:0"><span class="tag">Don Bosco</span><span class="tag tag--charcoal">Formation</span></div>
+          <div class="share">SHARE <button data-toast="Share to Facebook (prototype)" aria-label="Share on Facebook">f</button><button data-toast="Share to LinkedIn (prototype)" aria-label="Share on LinkedIn">in</button><button data-toast="Share to X (prototype)" aria-label="Share on X">X</button><button data-copy aria-label="Copy link"><svg class="i i--sm"><use href="#i-mail"/></svg></button></div></div>
+      </article>
+    </div>
+  </div>
+  <div class="section section--mist">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Keep reading</p><h2 class="h2">Related stories</h2></div></div>
+      <div class="grid grid--2">
+        <a class="story reveal" href="#ministry"><div class="media"><img src="assets/camp.jpg" alt=""><span class="tag tag--salmon">Youth ministry</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">8 Nov 2026</span><h3>Hope in the hills: 120 young people gather for Cagliero Camp</h3><p>Three days of games, prayer and new friendships.</p></a>
+        <a class="story reveal" href="#article"><div class="media"><img src="assets/brother.jpg" alt="" style="object-position:center 30%"><span class="tag tag--red">Community story</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">18 Oct 2026</span><h3>Br Carlos Gusmao SDB makes his perpetual profession</h3><p>A life given to young people as a Salesian brother.</p></a>
+      </div>
+      <div class="band band--navy on-dark reveal stack-gap"><div><p class="eyebrow">Keep exploring the news</p><h2 class="h2">More stories from the Province</h2><p>News, reflections and stories from Salesian communities across Australia and the Pacific.</p></div><a class="btn btn--light" href="#home">View all stories <svg class="i"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Keep exploring</p><h2 class="h2">Where this story leads</h2></div></div>
+      <div class="grid grid--2">
+        <a class="card reveal" href="#ministry"><span class="badge badge--navy"><svg class="i"><use href="#i-users"/></svg></span><h3 class="h4">The ministries carrying this mission forward</h3><p>Schools, youth ministry, missions and parishes across the Province.</p><span class="card-footer">See our works <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="card reveal" href="#resources"><span class="badge badge--navy"><svg class="i"><use href="#i-book"/></svg></span><h3 class="h4">Resource &amp; Bulletin library</h3><p>Podcasts, bulletins, prayer and formation resources.</p><span class="card-footer">Browse the library <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================
+     06 MINISTRY OVERVIEW
+     ===================================================== -->
+<section class="view" id="ministry" data-title="Cagliero Youth Ministry" data-section="works">
+  <div class="page-intro page-intro--navy on-dark">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="#home">Home</a><svg class="i"><use href="#i-chev"/></svg><a href="#ministry">Our Works and Ministries</a><svg class="i"><use href="#i-chev"/></svg><span>Cagliero Youth Ministry</span></nav>
+      <p class="eyebrow">Ministry / works</p>
+      <h1 class="h1">Cagliero Youth Ministry: a clear path into the work</h1>
+      <p class="lead">Cagliero gives young people, families and supporters a concrete way to understand the work, meet the people involved, and move into related Salesian Missions content.</p>
+      <div class="btn-row" style="margin-top:24px"><a class="btn btn--light" href="#" data-toast="Opens the Cagliero website (external)">Visit the Cagliero website <svg class="i"><use href="#i-ext"/></svg></a><a class="btn btn--outline-light" href="#" data-toast="Get involved form (prototype)">Get involved <svg class="i"><use href="#i-arrow"/></svg></a></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container glance-grid">
+      <div class="glance on-dark reveal">
+        <p class="h3" style="display:flex;gap:10px;align-items:center;margin-bottom:12px"><svg class="i" style="color:var(--salmon)"><use href="#i-spark"/></svg>At a glance</p>
+        <div class="glance__row"><span class="badge badge--glass" style="width:40px;height:40px"><svg class="i i--sm"><use href="#i-book"/></svg></span><div><span class="label">What it is</span><p>The youth ministry of the Salesians of Don Bosco in Australia–Pacific.</p></div></div>
+        <div class="glance__row"><span class="badge badge--glass" style="width:40px;height:40px"><svg class="i i--sm"><use href="#i-users"/></svg></span><div><span class="label">Who it serves</span><p>Young people aged 12–25 and the adults who walk with them.</p></div></div>
+        <div class="glance__row"><span class="badge badge--glass" style="width:40px;height:40px"><svg class="i i--sm"><use href="#i-pin"/></svg></span><div><span class="label">Where to find it</span><p>Salesian schools, parishes and youth centres across the Province.</p></div></div>
+        <div class="glance__row"><span class="badge badge--glass" style="width:40px;height:40px"><svg class="i i--sm"><use href="#i-heart"/></svg></span><div><span class="label">How to engage</span><p>Join a group, come on camp, volunteer as a leader or partner with us.</p></div></div>
+      </div>
+      <div class="reveal" style="display:flex;flex-direction:column"><div class="media" style="flex:1"><img src="assets/court.jpg" alt="A youth leader playing basketball with teenagers"></div><p class="caption"><svg class="i"><use href="#i-cam"/></svg>Photo: [credit TBC]</p></div>
+    </div>
+  </div>
+  <div class="section section--navy on-dark">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">Get involved</p><h2 class="h2">What you can do next</h2></div></div>
+      <div class="grid grid--4">
+        <a class="card reveal" href="#" data-toast="Opens the youth group finder (external)"><span class="badge badge--tint"><svg class="i"><use href="#i-users"/></svg></span><h3 class="h4">Join a youth group</h3><p>Find a Salesian youth group meeting near you.</p><span class="card-footer">Visit site <span class="arrow-btn"><svg class="i"><use href="#i-ext"/></svg></span></span></a>
+        <a class="card reveal" href="#" data-toast="Opens camps & retreats (external)"><span class="badge badge--tint"><svg class="i"><use href="#i-cal"/></svg></span><h3 class="h4">Camps &amp; retreats</h3><p>Seasonal camps and retreats for ages 12–18.</p><span class="card-footer">Visit site <span class="arrow-btn"><svg class="i"><use href="#i-ext"/></svg></span></span></a>
+        <a class="card reveal" href="#" data-toast="Opens OzBosco leadership (external)"><span class="badge badge--tint"><svg class="i"><use href="#i-spark"/></svg></span><h3 class="h4">Become a young leader</h3><p>Leadership formation for 16–25s through OzBosco.</p><span class="card-footer">Visit site <span class="arrow-btn"><svg class="i"><use href="#i-ext"/></svg></span></span></a>
+        <a class="card reveal" href="#" data-toast="Opens Salesian Missions (external)"><span class="badge badge--tint"><svg class="i"><use href="#i-globe"/></svg></span><h3 class="h4">Salesian Missions</h3><p>Volunteer or support mission work overseas.</p><span class="card-footer">Visit site <span class="arrow-btn"><svg class="i"><use href="#i-ext"/></svg></span></span></a>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container grid grid--2 reveal" style="gap:64px;align-items:start">
+      <div><p class="eyebrow">Who it’s for</p><h2 class="h2">A clear path for young people</h2></div>
+      <div><p class="lead" style="color:var(--ink)">A young person lands here looking for community, formation or a way to serve. This page answers who Cagliero is for, what happens next, and where the wider Salesian mission connects.</p><div class="tags"><span class="tag tag--salmon">Ages 12–25</span><span class="tag">Faith &amp; formation</span><span class="tag tag--charcoal">Service</span><span class="tag tag--red">Leadership</span></div></div>
+    </div>
+  </div>
+  <div class="section section--mist">
+    <div class="container">
+      <div class="section-head reveal"><div><p class="eyebrow">From Cagliero</p><h2 class="h2">Related stories</h2></div></div>
+      <div class="grid grid--2">
+        <a class="story reveal" href="#article"><div class="media"><img src="assets/camp.jpg" alt=""><span class="tag tag--salmon">Youth ministry</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">8 Nov 2026</span><h3>Hope in the hills: 120 young people gather for Cagliero Camp</h3><p>Three days of games, prayer and new friendships.</p></a>
+        <a class="story reveal" href="#article"><div class="media"><img src="assets/trees.jpg" alt=""><span class="tag tag--charcoal">Green Alliance</span><span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></div><span class="date">21 Oct 2026</span><h3>Planting 500 trees with OzBosco volunteers</h3><p>A morning of care for our common home.</p></a>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container stack">
+      <div class="band band--navy on-dark reveal"><div><p class="eyebrow">Visit a ministry or work</p><h2 class="h2">Choose your next path</h2><p>Every Salesian work has its own home online. Start here, then step through to the full site.</p></div><a class="btn btn--light" href="#home">Choose a path <svg class="i"><use href="#i-arrow"/></svg></a></div>
+      <div class="reveal"><p class="eyebrow">Keep exploring related works</p><h2 class="h2">Cagliero Youth Ministry &amp; Salesian Missions</h2></div>
+      <div class="grid grid--3">
+        <a class="tile tile--red reveal" href="#" data-soon="Salesian Missions overview uses this same template."><svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-globe"/></svg><span class="badge badge--white"><svg class="i i--lg"><use href="#i-globe"/></svg></span><h3>Salesian Missions</h3><p>Practical mission work with young people across Asia and the Pacific.</p><span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="tile tile--charcoal reveal" href="#resources"><svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-hub"/></svg><span class="badge badge--white"><svg class="i i--lg"><use href="#i-hub"/></svg></span><h3>Collaborative Hub</h3><p>Formation and practical resources for leaders and communities.</p><span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+        <a class="tile tile--navy reveal" href="#article"><svg class="tile__wave"><use href="#wave"/></svg><svg class="i tile__mark"><use href="#i-news"/></svg><span class="badge badge--white"><svg class="i i--lg"><use href="#i-news"/></svg></span><h3>Bosco.link News</h3><p>Stories and updates from across the Province.</p><span class="card-footer">Explore <span class="arrow-btn"><svg class="i"><use href="#i-arrow"/></svg></span></span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-cols">
+      <div><img class="footer-logo" src="assets/logo-white.svg" alt="Salesians of Don Bosco"><p>A community of Salesian priests, brothers and lay partners walking with young people across Australia, Fiji, Samoa and New Zealand, in the spirit of St John Bosco.</p></div>
+      <div><h4>Explore</h4><ul><li><a href="#child-safety">About Us</a></li><li><a href="#" data-soon>Youth and Vocations</a></li><li><a href="#ministry">Our Works and Ministries</a></li><li><a href="#resources">Resources and Bulletin</a></li><li><a href="#article">News</a></li></ul></div>
+      <div><h4>Salesian network</h4><ul><li><a href="#" data-soon>Salesian Missions</a></li><li><a href="#ministry">Cagliero Youth Ministry</a></li><li><a href="#article">Bosco.link News</a></li><li><a href="#resources">Collaborative Hub</a></li><li><a href="#" data-soon>Salesian Family</a></li></ul></div>
+      <div><h4>Contact</h4><ul class="contact"><li><svg class="i i--sm"><use href="#i-pin"/></svg><span>Salesian Province Centre<br>3 Middle Street, Ascot Vale VIC 3032</span></li><li><svg class="i i--sm"><use href="#i-phone"/></svg><span>(03) 9377 6000</span></li><li><svg class="i i--sm"><use href="#i-mail"/></svg><span>[Province email — to confirm]</span></li></ul></div>
+    </div>
+    <div class="footer-safe">
+      <span class="badge badge--glass" style="color:var(--salmon)"><svg class="i i--lg"><use href="#i-shield"/></svg></span>
+      <div style="flex:1"><p class="h4">Our commitment to child safety</p><p>We are committed to the safety, wellbeing and dignity of every child and young person in our care. We have zero tolerance for abuse, and we listen and act on every concern.</p></div>
+      <a class="btn btn--link" href="#child-safety" style="color:var(--salmon)">Policies and Procedures <svg class="i"><use href="#i-arrow"/></svg></a>
+    </div>
+    <p class="footer-ack">We acknowledge the Traditional Custodians of the lands on which we live, work and minister, and pay our respects to Elders past and present.</p>
+    <div class="footer-bottom"><span>© <span data-year>2026</span> Salesians of Don Bosco, Australia–Pacific Province</span><span>Privacy · Accessibility · Sitemap · Contact</span></div>
+    <div class="wordmark" aria-hidden="true">Salesians of Don Bosco</div>
+  </div>
+</footer>
+
+<!-- Video modal -->
+<div class="modal" id="video" role="dialog" aria-label="Video">
+  <button class="drawer__close" data-close-video aria-label="Close video"><svg class="i i--lg"><use href="#i-close"/></svg></button>
+  <div class="modal__box"><img src="assets/hero.jpg" alt=""><div><p class="eyebrow" style="color:var(--salmon)">Video placeholder</p><p class="h3" style="color:#fff" id="video-title">Our story</p><p style="color:rgba(255,255,255,.8);margin-top:8px">The Province’s video (YouTube / Vimeo embed) plays here with captions on.</p></div></div>
+  <div class="drawer__scrim" data-close-video style="position:absolute;inset:0;z-index:-1"></div>
+</div>
+
+<button class="to-top" aria-label="Back to top"><svg class="i"><use href="#i-arrow"/></svg></button>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
